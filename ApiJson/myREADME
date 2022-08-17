@@ -1,0 +1,27 @@
+
+
+Internet ile çalışabilen bir uygulama yapacağız.Buradaki ile Öğreneceğimiz İnternetten nasıl veri Çekilir , nasıl kullanılırı Öğrenmiş olacağız.
+
+Internetteki bir sunucuya işlem yapma kapasitesini görcez.
+
+APİ( Application Programing Interface) : Bir sunucudan Herhangi bir uygulamaya , programlamaya  Veri Aktarımını kolay bir şekilde yapabiliyoruz.Bu verileri API ler aracılığı ile Bize Ulaştırıyorlar.Bizde Aldığımız bu verileri kendi uygulamamızda kullanıyoruz.
+
+
+JSON:Sadece Api'lerde kullanılmaz birden fazla yerde kullanılır.Çünkü karmaşık verileri yapısal şekilde göstermeye yarıyor.Yani Bir gösterme Formatıdır.Jsonlar bir dictionary tarzında gelir.
+
+
+Fixer.io 'dan biz verilerimizi çekecegiz. Burada documantasyonda nasıl ıstek atılır nasıl cevap alırsınız gıbı  şeyler anlatılıyor.Bizim İzliyceğimiz adımlar
+
+1.Nasıl ıstek yollanır
+2.Cevap almak response
+3.Bu cevapları işlemek
+
+
+Önemli Olan: API adresini almak.
+
+web sitesinde "Append your API Key": mevut oradaki linki alıyoruz ve bir yere kopyalıyoruz.Burada API_KEY  diyor. API_KEY 'İ silip bizim profilimizde olan Api key i kapıştırıyoruz kendı anahtarımızı.Bunu bir browser url yerine yazıyoruz buda bıze dondurulecek verılerı gösterir neleri alabiliyoruz .
+
+
+2.Adıma geçmeden url uzantısı http ve https var  bu https hacker saldırılarına karsı bılgılerı koruyor. Bunu aktif etmek için infi ya gelip "App Transpor Security Settings" çıkıyor sonra bunun üzerinden bulunan oka basıp aşağı döndüğünde tekrar + ya basınca bunun içerisinde bulunan  yerler açılıyor buradan "Allow Arbitrary Loads" a tıklamamız gerekiyor.Sağ taraftan NO yi gelip Yes yaparsak  artık http bağlantılara  izin veriyoruz demiş oluyoruz.
+
+
