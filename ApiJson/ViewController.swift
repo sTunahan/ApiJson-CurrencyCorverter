@@ -57,7 +57,7 @@ class ViewController: UIViewController {
                        //MARK: Thread
                         
                         DispatchQueue.main.async {
-                            print(jsonResponse) // VERİLERİ ALIP ALMADIGIMIZI GÖRMEK ICIN BERİLER BİZE DİCT turunde geldi.
+                            print(jsonResponse) // to see the data
                             
                             //MARK: step 3
                             print(jsonResponse["rates"]!)
